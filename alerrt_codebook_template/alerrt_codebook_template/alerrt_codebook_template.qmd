@@ -1,0 +1,47 @@
+---
+title: "___ Codebook"
+subtitle: ALERRT Codebook Template v2025
+editor: visual
+toc: true
+title-block-banner: rgb(87,28,31)
+format: 
+  html:
+    toc: true
+  pdf: default
+  docx: default
+---
+
+![](ALERRT%20Center%20Badge_Logo%20PNG.png){fig-align="center" width="400"}
+
+```{r}
+#| output: false
+#| echo: false
+
+if(!require(tidyverse)){
+  install.packages("tidyverse", dependencies = TRUE)
+  library(tidyverse)
+}
+
+if(!require(rio)){
+  install.packages("rio", dependencies = TRUE)
+  library(rio)
+}
+
+if(!require(summarytools)){
+  install.packages("summarytools", dependencies = TRUE)
+  library(summarytools)
+}
+```
+
+```{r}
+#| echo: false
+#| warning: false
+
+create_codebook <- function(data, magnification = .80){
+  df <- rio::import(data) 
+  print(dfSummary(df, graph.magnif = magnification, valid.col = FALSE, na.col = FALSE, labels.col = TRUE), method = 'render')
+
+}
+
+create_codebook(data = NULL)
+```
