@@ -38,5 +38,5 @@ create_codebook <- function(data, magnification = .80){
 
 }
 
-create_codebook(data = NULL)
+create_codebook(data = "NULL")
 ```
