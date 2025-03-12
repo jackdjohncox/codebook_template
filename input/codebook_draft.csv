@@ -1,6 +1,0 @@
-﻿case_id,officer_id,officer_name,city,state,date,year,num_victims_shot,officer_action,pursuit,killed,ambush,ambush_spec,outside,all_location,location_details,officer_location_unknown,shot_total,shot_head,shot_trunk,shot_extremeties,shot_notes,officers_shot,officers_killed,blue_on_blue,rifle,shotgun,handgun,explosives,body_armor,resolution,notes
-1,1.1,John Doe,Hobbs,NM,2023-01-18,2023,2,Duty,0,0,1,post,1,next to car,road,0,2,0,0,2,shot in arm and leg,2,0,0,1,0,0,0,0,killed by le,This is a test
-1,1.2,Jane Doe,Hobbs,NM,2023-01-18,2023,2,Duty,0,0,1,call,1,inside car,parking lot,0,1,0,1,0,shot in vest,2,0,0,1,0,0,0,0,killed by le,This is a test
-2,2.1,Doe John,Austin,TX,2023-01-27,2023,8,Duty,0,1,1,assisting,0,hallway,resturaunt,0,4,2,2,0,shot in neck,1,1,0,0,0,1,1,1,surrendered,This is a test
-3,3.1,Doe Jane,Fort Worth,TX,2023-01-28,2023,6,Response,1,1,0,,1,moving,outside hospital,0,2,0,2,0,test,1,1,0,0,1,0,0,0,suicide after LE arrival,This is a test
-4,4.1,JD Doe,San Antonio,TX,2023-01-29,2023,3,Response,0,0,0,,0,room,school,0,1,1,0,0,test,1,0,1,0,0,1,0,0,fled,This is a test
