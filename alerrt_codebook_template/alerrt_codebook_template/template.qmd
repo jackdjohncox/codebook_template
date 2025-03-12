@@ -17,11 +17,6 @@ format:
 #| output: false
 #| echo: false
 
-if(!require(tidyverse)){
-  install.packages("tidyverse", dependencies = TRUE)
-  library(tidyverse)
-}
-
 if(!require(rio)){
   install.packages("rio", dependencies = TRUE)
   library(rio)
