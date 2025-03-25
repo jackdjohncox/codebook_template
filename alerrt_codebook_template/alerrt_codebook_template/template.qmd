@@ -6,7 +6,7 @@ toc: true
 title-block-banner: rgb(87,28,31)
 format: 
   html:
-    toc: true
+    embed-resources: true
   pdf: default
   docx: default
 ---
